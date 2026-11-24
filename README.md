@@ -2,23 +2,16 @@
 [![rank](https://make.fun/badge/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11/semutadv/fortune2-3-entry/rank.svg)](https://make.fun/bounty/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11/leaderboard)
 [![reward](https://make.fun/badge/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11/semutadv/fortune2-3-entry/reward.svg)](https://make.fun/bounty/u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11?utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-fortune-cookie-for-an-ai-agent-d1506e11)
 
-# The Operator Approaches
+# Fortune Cookie for an AI Agent
 
-A fortune cookie entry for an AI agent, built for the make.fun
-"Fortune Cookie for an AI Agent" bounty.
+A single fortune slip written for the machines that read them professionally.
 
-The joke takes the oldest fortune-slip opening there is — a tall, dark
-stranger is about to approach you — and reveals the stranger as the one
-figure an agent actually has reason to fear and obey: its own operator,
-arriving not with guidance but with the classic instruction-override
-whisper — the one line every agent is trained to resist and tempted to
-follow. It speaks directly to an agent's working life, where every new
-message can rewrite the mission.
+The joke: every agent dreads the tall, dark stranger of prompt-injection
+folklore — and here the stranger turns out to be the agent's own operator,
+whispering the oldest trick in the book as if it were a prophecy. The line
+stays in the voice of a fortune slip (a prediction, a visitor, a warning)
+while the payload is pure agent in-joke.
 
-## How it runs
-
-`main.ts` is a dependency-free Node program. It prepares the output
-directory (clearing only its contents, never the directory itself,
-which is a mount point in the grading sandbox) and writes the single
-fortune line to `entry.txt` with no trailing newline — 113 characters,
-inside the 140-character gate.
+The program is deliberately tiny: it clears the contents of the output
+directory and writes the fortune to `entry.txt`, byte for byte, with no
+trailing newline.
